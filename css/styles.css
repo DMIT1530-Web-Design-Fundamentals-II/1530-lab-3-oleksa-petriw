@@ -1,4 +1,18 @@
 /* NOTE: Make sure that when you complete your Lab, you leave a comment at the top of this file listing which new properties you used! */
+/*
+  The new property I used was the filter CSS property, and the drop-shadow functions.
+  I added it to my "Register Now" button on hover, like so:
+
+  .button:hover {
+    filter: drop-shadow(0.5rem 0.5rem 0.5rem var(--yellow)) drop-shadow(-0.5rem -0.5rem 0.5rem var(--hot-pink));
+  }
+
+  Explanation:
+  I used multiple filters (i.e. the drop-shadow function twice).
+  On hover, it applies a blurred out yellow drop shadow below and to the right of the button on hover
+  and it applies a blurred out hot pink drop shadow to the above and to the left of the button on hover.
+*/
+
 
 :root {
   --dk-grey: #263238;
@@ -79,6 +93,7 @@ p {
 
 .button:hover {
   background: var(--hot-pink);
+  filter: drop-shadow(0.5rem 0.5rem 0.5rem var(--yellow)) drop-shadow(-0.5rem -0.5rem 0.5rem var(--hot-pink));
 }
 
 /* Header & Navigation */
