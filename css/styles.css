@@ -97,6 +97,10 @@ p {
 }
 
 /* Header & Navigation */
+nav > h2 {
+  display: none;
+}
+
 header {
   background-color: var(--dk-grey);
   padding: 1rem;
