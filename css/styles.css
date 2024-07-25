@@ -7,3 +7,18 @@
   --green: #8BC34A;
   --white: #FAFAFA;
 }
+
+.hot-pink {
+  color: var(--hot-pink)
+}
+
+.button {
+  background: linear-gradient(270deg, var(--yellow) 0%, var(--hot-pink) 100%);
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  display: inline-block;
+  padding: 1rem;
+  border-radius: 2rem;
+  margin: 1rem 0;
+}
